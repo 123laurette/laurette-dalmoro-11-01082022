@@ -9,10 +9,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Header />
-      <Route exact path="/">
-
-
-      </Route>
+      
     </Router>
   </React.StrictMode>
   
