@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Header from './Component/Header/header';
+import { BrowserRouter as Router } from 'react-router-dom'
+import Home from "./Page/Home.jsx"
+import FicheLogement from './Page/Fiche-logement';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Header />
+      <Home />
+      <FicheLogement />
       
     </Router>
   </React.StrictMode>
