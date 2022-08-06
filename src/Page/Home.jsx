@@ -22,9 +22,9 @@ function Home() {
                 <div className="filtre-photo"></div>
             </div>
 
-            <div className="petitcaroussel">
+            <div className="petit-caroussel">
                 <img src={petitephoto} alt="location"/>
-                <div className="bcgaccueil"></div>
+                <div className="bcg-accueil"></div>
             </div>
             
         </div>

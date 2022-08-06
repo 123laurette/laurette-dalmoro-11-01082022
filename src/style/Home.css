@@ -54,7 +54,7 @@ a{
     opacity: 0.3;
     mix-blend-mode: darken;
 }
-.petitcaroussel {
+.petit-caroussel {
     display: flex;
     width: 90%;
     height: 829px;
@@ -63,7 +63,14 @@ a{
     margin-top: 40px;
     margin-left: 100px;
 }
-.bcgaccueil {
+.petit-caroussel img {
+    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.bcg-accueil {
     background-color:  #ff6060;
     width: 340px;
     height: 340px;
@@ -72,10 +79,4 @@ a{
     margin-left: 40px;
     
 }
-.petitcaroussel img {
-    border-radius: 10px;
-    width: 340px;
-    height: 340px;
-    margin-left: 40px;
-    margin-top: 40px;
-}
+

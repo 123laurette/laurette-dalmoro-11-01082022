@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom"
 import logo from "../assets/LOGO Header.png"
-import "../style/Page404.css"
+import "../style/Page-404.css"
 
 
 function Page404() {
@@ -14,7 +14,7 @@ function Page404() {
                     <Link to="/" className="Apropos">A Propos</Link>
                 </nav>
             </header>
-            <div className="messageerreur">
+            <div className="message-erreur">
                 <h5>404</h5>
                 <span>Oups! La page que vous demandez n'existe pas.</span>
                 <p>Retourner sur la page d'accueil</p>

@@ -1,15 +1,15 @@
 
-.baniereapropos {
+.baniere-a-propos {
     width: 90%;
     margin-left: 100px;
     margin-top: 40px;
     border-radius: 25px;
 }
-.detailapropos {
+.detail-a-propos {
     width: 90%;
     margin-left: 170px;
 }
-.bandeauRouge {
+.bandeau-rouge {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,17 +20,17 @@
     margin-top: 30px;
     position: relative;
 }
-.bandeauRouge h4 {
+.bandeau-rouge h4 {
     font-size: 24px;
     color: white;
     margin-left: 20px;
 }
-.bandeauRouge img {
+.bandeau-rouge img {
     width: 26px;
     height: 26px;
     margin-right: 20px;
 }
-.detailbandeaurouge {
+.detail-bandeau-rouge {
     background-color : #f6f6f6;
     width: 90%;
     height: 150px;
@@ -38,7 +38,7 @@
     padding-top: 30px;
     border-radius: 0 0 5px 5px;
 }
-.detailbandeaurouge p {
+.detail-bandeau-rouge p {
     color: #ff6060;
     width: 90%;
     height: 68px;

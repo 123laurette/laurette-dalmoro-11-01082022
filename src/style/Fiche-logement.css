@@ -1,15 +1,14 @@
-.grandephoto {
+.grande-photo {
     display: flex;
     width: 90%;
     flex-direction: column;
     margin-left: 100px;
     margin-top: 40px;
 }
-.titrenom {
+.titre-nom {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-
 }
 .titre{
     width: 70%;
@@ -42,7 +41,7 @@
     background-color: #c4c4c4;
     border-radius: 50px;
 }
-.tageval {
+.tag-eval {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
@@ -75,7 +74,7 @@
     width: 30px;
     height: 30px;
 }
-.descriptequip {
+.descript-equip {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -86,9 +85,8 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-
 }
-.titredescription {
+.titre-description {
     display: flex;;
     justify-content: space-between;
     align-items: center;
@@ -96,38 +94,35 @@
     height: 52px;
     border-radius: 10px;
 }
-.titredescription h4 {
+.titre-description h4 {
     font-size: 18px;
     color: white;
     margin-left: 20px;
 }
-.titredescription img {
+.titre-description img {
     width: 26px;
     height: 26px;
     margin-right: 20px;
 }
-.detaildescription {
+.detail-description {
     background-color : #f6f6f6;
     width: 100%;
     height: 270px;
 }
-.detaildescription p {
+.detail-description p {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
     line-height: 25px;
     font-size: 18px;
-
-    
 }
 .equipements {
     display: flex;
     flex-direction: column;
     width: 50%;
     margin-left: 100px;
-
 }
-.titreequipements {
+.titre-equipements {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,34 +131,33 @@
     border-radius: 10px;
     position: relative;
 }
-.titreequipements h4 {
+.titre-equipements h4 {
     font-size: 18px;
     color: white;
     margin-left: 20px;
 }
-.titreequipements img {
+.titre-equipements img {
     width: 26px;
     height: 26px;
     margin-right: 20px;
 }
-.detailequipements {
+.detail-equipements {
     background-color : #f6f6f6;
     width: 100%;
     margin-top: -10px;
     height: 270px;
     border-radius: 0 0 10px 10px;
 }
-.detailequipements ul {
+.detail-equipements ul {
     margin-top: 25px;
 }
-.detailequipements li {
+.detail-equipements li {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 34px;
     line-height: 0px;
     list-style-type: none;
     font-size: 18px;
-
 }
 
 

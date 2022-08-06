@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter as Router } from 'react-router-dom'
-import Home from "./Page/Home.jsx"
-import FicheLogement from './Page/Fiche-logement';
-import Page404 from "./Page/Page404";
-import Apropos from "./Page/Apropos";
+import Home from "./page/Home.jsx"
+import FicheLogement from './page/Fiche-logement';
+import Page404 from "./page/Page-404";
+import Apropos from "./page/A-propos";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,8 +15,6 @@ root.render(
       <FicheLogement />
       <Page404 />
       <Apropos />
-
-
     </Router>
   </React.StrictMode>
   
