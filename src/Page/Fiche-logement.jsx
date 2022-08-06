@@ -1,7 +1,5 @@
 import React from "react"
-import {Link} from "react-router-dom"
 import "../style/Fiche-logement.css"
-import logo from "../assets/LOGO Header.png"
 import grandephoto from "../assets/grande photo.png"
 import etoileblanche from "../assets/etoile blanche.png"
 import etoilerouge from "../assets/etoile rouge.png"
@@ -10,13 +8,6 @@ import arrowclose from "../assets/arrow_close.png"
 function FicheLogement() {
     return (
         <div>
-            <header>
-                <img src={logo} alt="logo Kasa" />
-                <nav>
-                    <Link to="/" className="accueil">Accueil</Link>
-                    <Link to="/" className="Apropos">A Propos</Link>
-                </nav>
-            </header>
             <article className="grande-photo">
                 <img src={grandephoto} alt="logement séléctionné" />
                 <div className="titre-nom">
