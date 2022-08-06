@@ -25,8 +25,8 @@ function Home() {
             <div className="petitcaroussel">
                 <img src={petitephoto} alt="location"/>
                 <div className="bcgaccueil"></div>
-
             </div>
+            
         </div>
     )
 }

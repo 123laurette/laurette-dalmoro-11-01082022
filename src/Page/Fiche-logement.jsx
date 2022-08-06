@@ -5,7 +5,7 @@ import logo from "../assets/LOGO Header.png"
 import grandephoto from "../assets/grande photo.png"
 import etoileblanche from "../assets/etoile blanche.png"
 import etoilerouge from "../assets/etoile rouge.png"
-import chevronouvert from "../assets/arrow_back_ios-24px 2.png"
+import arrowclose from "../assets/arrow_close.png"
 
 function FicheLogement() {
     return (
@@ -48,7 +48,7 @@ function FicheLogement() {
                     <div className="description">
                 <div className="titredescription">
                     <h4>Description</h4>
-                    <img src={chevronouvert} alt="" />
+                    <img src={arrowclose} alt="" />
                 </div>
                 <div className="detaildescription">
                     <p>Vous serez à 50m du canal Saint-martin où vous pourrez pique-niquer l'été et à côté de nombreux bars et restaurants. Au cœur de Paris avec 5 lignes de métro et de nombreux bus. Logement parfait pour les voyageurs en solo et les voyageurs d'affaires. Vous êtes à1 station de la gare de l'est (7 minutes à pied). </p>
@@ -57,7 +57,7 @@ function FicheLogement() {
                 <div className="equipements">
                 <div className="titreequipements">
                     <h4>Equipements</h4>
-                    <img src={chevronouvert} alt="" />
+                    <img src={arrowclose} alt="" />
                 </div>
                 <ul className="detailequipements">
                     <li>Climatisation</li>

@@ -1,0 +1,24 @@
+.messageerreur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 850px;
+    margin-left: 100px;
+}
+.messageerreur h5 {
+    font-size: 288px;
+    color: #ff6060;
+}
+.messageerreur span {
+    font-size: 36px;
+    color: #ff6060;
+    margin-top: 50px;
+}
+.messageerreur p {
+    font-size: 18px;
+    color: #ff6060;
+    margin-top: 150px;
+
+}

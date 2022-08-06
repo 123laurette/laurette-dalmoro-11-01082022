@@ -4,6 +4,8 @@ import './index.css';
 import { BrowserRouter as Router } from 'react-router-dom'
 import Home from "./Page/Home.jsx"
 import FicheLogement from './Page/Fiche-logement';
+import Page404 from "./Page/Page404";
+import Apropos from "./Page/Apropos";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +13,10 @@ root.render(
     <Router>
       <Home />
       <FicheLogement />
-      
+      <Page404 />
+      <Apropos />
+
+
     </Router>
   </React.StrictMode>
   
