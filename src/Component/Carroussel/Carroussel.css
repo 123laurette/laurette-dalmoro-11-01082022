@@ -1,0 +1,27 @@
+.carroussel {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.banniereLogement {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.photo {
+    width: 100%;
+}
+.precedent, .suivant {
+    position: absolute;
+    width: 46px;
+    height: 79 px;
+}
+.precedent {
+    margin-left: 25px;
+}
+.suivant {
+margin-left: 96%;
+}

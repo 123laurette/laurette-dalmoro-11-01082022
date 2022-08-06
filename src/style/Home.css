@@ -35,29 +35,5 @@
     opacity: 0.3;
     mix-blend-mode: darken;
 }
-.petit-caroussel {
-    display: flex;
-    width: 90%;
-    height: 829px;
-    border-radius: 25px;
-    background-color: #f6f6f6;
-    margin-top: 40px;
-    margin-left: 100px;
-}
-.petit-caroussel img {
-    border-radius: 10px;
-    width: 340px;
-    height: 340px;
-    margin-left: 40px;
-    margin-top: 40px;
-}
-.bcg-accueil {
-    background-color:  #ff6060;
-    width: 340px;
-    height: 340px;
-    border-radius: 10px;
-    margin-top: 40px;
-    margin-left: 40px;
-    
-}
+
 

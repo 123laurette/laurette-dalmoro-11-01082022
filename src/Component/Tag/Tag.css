@@ -1,0 +1,17 @@
+.tag {
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.tag li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    background-color: #ff6060;
+    border-radius: 10px;
+    width: 115px;
+    height: 25px;
+}

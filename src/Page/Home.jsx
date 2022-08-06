@@ -1,7 +1,7 @@
 import React from "react"
 import accueil from "../assets/banniere accueil.png"
-import petitephoto from "../assets/petite photo.png"
 import "../style/Home.css"
+import Gallery from "../Component/Gallery/Gallery"
 
 
 function Home() {
@@ -12,12 +12,7 @@ function Home() {
                 <h1>Chez vous, partout et ailleurs</h1>
                 <div className="filtre-photo"></div>
             </div>
-
-            <div className="petit-caroussel">
-                <img src={petitephoto} alt="location"/>
-                <div className="bcg-accueil"></div>
-            </div>
-            
+            <Gallery />
         </div>
     )
 }

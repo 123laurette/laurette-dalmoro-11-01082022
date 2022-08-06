@@ -1,0 +1,25 @@
+.gallery {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 829px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.gallery img {
+    position: relative;
+    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.gallery h2 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 340px;
+    color: white;
+
+}

@@ -1,0 +1,18 @@
+.titre-description {
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6060;
+    height: 52px;
+    border-radius: 10px;
+}
+.titre-description h4 {
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+}
+.titre-description img {
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+}
