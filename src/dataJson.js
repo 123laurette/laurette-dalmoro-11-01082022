@@ -19,7 +19,6 @@ function getIdLogements (id) {
 }
 
 //je demande que le tableau des logements soit filtré selon son id
-
 export {
     getDataLogements,
     getIdLogements
