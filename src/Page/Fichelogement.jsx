@@ -1,5 +1,6 @@
 import React from "react"
 import "../style/Fiche-logement.css"
+//import { getIdLogements } from "../dataJson"
 import etoileblanche from "../assets/etoile blanche.png"
 import etoilerouge from "../assets/etoile rouge.png"
 import Carroussel from "../Component/Carroussel/Carroussel"

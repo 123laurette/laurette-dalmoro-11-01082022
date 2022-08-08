@@ -1,13 +1,13 @@
 import React from "react"
-import petitephoto from "../../assets/petite photo.png"
 import "./Gallery.css"
 
 
-function Gallery() {
+function Gallery(props) {
     return (
         <div className="gallery">
-            <img src={petitephoto} alt="location"/>
-            <h2>Titre de la location</h2>
+            <img src={props.cover} alt="props.title"/>
+            <div className="filtreGallery"></div>
+            <h2>{props.title}</h2>
         </div> 
     )
 }

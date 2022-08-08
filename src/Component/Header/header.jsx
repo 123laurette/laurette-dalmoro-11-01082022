@@ -1,17 +1,19 @@
 import React from "react"
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 import "./Header.css"
 import logo from "../../assets/LOGO Header.png"
 
 
 function Header () {
     return (
-        <div>
+        <div className="Header">
             <header>
                 <img src={logo} alt="logo Kasa" />
                 <nav>
-                    <Link to="/" className="accueil">Accueil</Link>
-                    <Link to="/" className="Apropos">A Propos</Link>
+                    <NavLink to="/" className={(Home) => Home.isActive ? "active" : "" }>
+                        Accueil</NavLink>
+                    <NavLink to="/Apropos" className={(Apropos) => Apropos.isActive ? "active" : ""}>
+                        A Propos</NavLink>
                 </nav>
             </header>
         </div>
