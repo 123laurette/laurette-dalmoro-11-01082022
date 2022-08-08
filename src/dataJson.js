@@ -1,19 +1,5 @@
 import logements from "../src/data/logements.json" 
 
-// RECUPERATION DU JSON.................
-
-/*function getDataLogements() {
-    const response = fetch ("../public/logements.json" );
-    console.log(response);
-    const data = response.json();
-    console.log(data);
-
-    return data;
-}
-
-
-getDataLogements()*/
-
 
 function getDataLogements() {
     return logements.map((logement) => {
@@ -25,9 +11,14 @@ function getDataLogements() {
     })
 }
 
+//je réupère mon fichier json et je crée un tableau de chaque logement
+//J'en ressort les clés dont j'ai besoin pour pouvoir en récupérer les valeurs
+
 function getIdLogements (id) {
     return logements.filter ((logement) => logement.id === id)[0];
 }
+
+//je demande que le tableau des logements soit filtré selon son id
 
 export {
     getDataLogements,
