@@ -20,4 +20,7 @@ function Header () {
     )
 }
 
+
+//si le document qui a la classe Home est ouvert, alors appliquer la classe active, sinon rien
+//si le document qui a la classe Apropos est ouvert, alors appliquer la classe active, siinon rien
 export default Header

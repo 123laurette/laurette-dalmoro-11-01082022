@@ -30,6 +30,9 @@ function Home() {
         </div>
     )
 }
+//je fais le lien entre une photo et son détail dans la fiche logement, par ID
+//je donne le contenu de la props
 
 export default Home
 
+//
