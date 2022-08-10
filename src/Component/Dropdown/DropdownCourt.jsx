@@ -10,7 +10,7 @@ function Dropdown({ title, text, extraClass }) {
 
     return dropdownOpened ? (
         <div className={extraClass ? "dropdown " + extraClass : "dropdown"}>
-        <div className="titre-description">
+        <div className="titre-dropdown">
             <h3>{title}</h3>
             <img
             src={arrowclose}
@@ -22,7 +22,7 @@ function Dropdown({ title, text, extraClass }) {
         </div>
     ) : (
         <div className="dropdown">
-        <div className="titre-description">
+        <div className="titre-dropdown">
             <h3>{title}</h3>
             <img
             src={arrowopen}

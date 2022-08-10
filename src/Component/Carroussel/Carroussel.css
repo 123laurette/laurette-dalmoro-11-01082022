@@ -1,9 +1,16 @@
-.photo  {
-    margin-top: 40px;
+.navig {
     width: 90%;
     height: 415px;
     margin-left: 100px;
+    margin-top: 40px;
+    
+}
+.photo  {
+    margin-bottom: 50px;
     border-radius: 25px;
+    height: 415px;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 
 .precedent, .suivant {
@@ -11,10 +18,17 @@
     position: absolute;
     width: 46px;
     height: 79 px;
+    cursor: pointer;
 }
 .precedent {
     margin-left: 25px;
 }
-.suivant {
-margin-left: 86%;
+.navigation .suivant {
+    margin-left: 86%;
+}
+.navigation p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 22%;
 }

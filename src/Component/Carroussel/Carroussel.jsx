@@ -13,10 +13,10 @@ let index = 0
  */
 function Carroussel({ pictures }) {
     const [, setRefresh] = useState(0)
-
     return (
-        <div className="photo" style={{background: `url("${pictures[index]}")`,}}>
-        {pictures.length > 1 ? navigation() : ""}</div>
+        <div className="photo" style={{backgroundImage: `url("${pictures[index]}")`,}}>
+        {pictures.length > 1 ? navigation() : ""}
+        </div>
     )
     function btnsuivant() {
         index++
@@ -34,9 +34,11 @@ function Carroussel({ pictures }) {
         return (
             <div className="navigation">
                 <img src={precedent} className="precedent" onClick={btnprecedent} alt=""/>
-
                 
                 <img src={suivant} className="suivant" onClick={btnsuivant} alt=""/>
+                <p>{index + 1}/{pictures.length}</p>
+                
+                
             </div>
         )
     }

@@ -1,3 +1,6 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+
 
 .titre-nom {
     display: flex;
@@ -24,11 +27,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 12%;
+    width: 10%;
 }
 .nom h3 {
     text-align: right;
-    width: 120px;
+    width: 90px;
     height: 52px;
     margin-top: 10px;
     font-size: 18px ;
@@ -47,16 +50,61 @@
     margin-left: 100px;
     width: 90%;
 }
+.stars {
+    font-family: "Font Awesome 6 Free";
+    color: var(--rouge);
+    text-align: right;
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+.stars::before {
+    font-weight: bold;
+}
 
-.evaluation {
-    display: flex;
-    justify-content: space-between;
-    width: 12%;
+.oneStar::before{
+    content:"\f005";
 }
-.evaluation img {
-    width: 30px;
-    height: 30px;
+.oneStar::after{
+    content:"\f005\f005\f005\f005";
+    color: var(--gris);
+    font-weight: bold;
 }
+
+
+.twoStars::before{
+    content:"\f005\f005";
+}
+.twoStars::after{
+    content:"\f005\f005\f005";
+    color: var(--gris);
+    font-weight: bold;
+}
+
+.threeStars::before{
+    content:"\f005\f005\f005";
+}
+.threeStars::after{
+    content:"\f005\f005";
+    color: var(--gris);
+    font-weight: bold;
+}
+
+.fourStars::before{
+    content:"\f005\f005\f005\f005";
+}
+.fourStars::after{
+    content:"\f005";
+    color: var(--gris);
+    font-weight: bold;
+}
+
+.fiveStars::before{
+    content:"\f005\f005\f005\f005\f005";
+}
+.fiveStars::after{
+    content:"";
+}
+
 .descript-equip {
     display: flex;
     justify-content: space-between;
@@ -70,14 +118,14 @@
     width: 45%;
 }
 .description p {
-    height: 200px;
+    height: 240px;
     color: #ff6060;
     font-size: 18px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 30px 10px 30px;
     background-color: #f6f6f6;
 }
 .equipements ul {
-    height: 200px;
+    height: 240px;
     list-style-type: none;
     color: #ff6060;
     font-size: 18px;

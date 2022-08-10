@@ -1,4 +1,4 @@
-.titre-description {
+.titre-dropdown {
     width: 100%;
     height: 52px;
     background-color: #ff6060;
@@ -9,13 +9,13 @@
     padding: 0 18px;
     border-radius: 5px;
 }
-.titre-description h4 {
+.titre-dropdown h3 {
     font-size: 18px;
     color: white;
-    margin-left: 20px;
+    margin-left: 10px;
 }
-.titre-description img {
+.titre-dropdown img {
     width: 26px;
     height: 26px;
-    margin-right: 20px;
+    margin-right: 10px;
 }

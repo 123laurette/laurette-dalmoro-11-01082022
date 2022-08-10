@@ -1,13 +1,9 @@
 import React from "react"
 import "./Tag.css"
 
-function Tag () {
+function Tag (props) {
     return (
-        <ul className="tag">
-                    <li>Cozy</li>
-                    <li>Canal</li>
-                    <li>Paris 10</li>
-                </ul>
+        <p className="tag">{props.tagsNom}</p>
     )
 }
 

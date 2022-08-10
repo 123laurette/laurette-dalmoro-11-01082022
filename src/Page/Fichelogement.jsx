@@ -2,20 +2,31 @@ import React from "react"
 import "../style/Fiche-logement.css"
 import { getIdLogements } from "../dataJson"
 import { useParams } from "react-router-dom"
-import etoileblanche from "../assets/etoile blanche.png"
-import etoilerouge from "../assets/etoile rouge.png"
 import Carroussel from "../Component/Carroussel/Carroussel"
 import Tag from "../Component/Tag/Tag"
-import DropdownCourtClose from "../Component/Dropdown/DropdownCourt"
+import DropdownCourt from "../Component/Dropdown/DropdownCourt"
 
 function FicheLogement() {
     const {logementId} = useParams()
     const ficheLogement = getIdLogements(logementId)
 
+    function showRating() {
+        const classes = [
+          null,
+          "oneStar",
+          "twoStars",
+          "threeStars",
+          "fourStars",
+          "fiveStars",
+        ]
+        return "stars " + classes[parseInt(ficheLogement.rating)]
+      }
     return (
         <div>
+            <div className="navig">
             <Carroussel 
             pictures={ficheLogement.pictures}/>
+            </div>
                 <div className="titre-nom">
                     <div className="titre">
                         <h2>{ficheLogement.title}</h2>
@@ -26,29 +37,21 @@ function FicheLogement() {
                         <img src={ficheLogement.host.picture} alt={ficheLogement.host.picture} />
                     </div>
             </div>
-            <div className="tag-eval"    >
-                <Tag />
-                <div className="evaluation">
-                    <img src={etoilerouge} alt="" />
-                    <img src={etoilerouge} alt="" />
-                    <img src={etoilerouge} alt="" />
-                    <img src={etoileblanche} alt="" />
-                    <img src={etoileblanche} alt="" />
+            <div className="tag-eval">
+                <div className="tags">
+                {ficheLogement.tags.map((tag) => (
+                <Tag tagsNom={tag} key={tag}/>
+
+                ))}
                 </div>
+                <div className={showRating()}></div>
             </div>
             <div className="descript-equip">
                 <div className="description">
-                    <DropdownCourtClose contenu="Description"/>                  
-                    <div className="detail-description">
-                        <p>{ficheLogement.description} </p>
-                    </div>
+                    <DropdownCourt title="Description" text={ficheLogement.description}/>  
                 </div>
                 <div className="equipements">
-                    <DropdownCourtClose contenu="Equipements"/>  
-                    <ul className="detail-equipements">
-                        <li>{ficheLogement.equipements}</li>
-                        
-                    </ul>
+                    <DropdownCourt title="Équipements" text={ficheLogement.equipments}/>             
                 </div>
             </div>
         </div>
