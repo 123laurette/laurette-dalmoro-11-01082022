@@ -5,28 +5,20 @@
     margin-top: 40px;
     border-radius: 25px;
 }
-.detail-a-propos {
-    width: 90%;
-    margin-left: 170px;
-}
 
-.detail-bandeau-rouge {
-    background-color: var(--grisclair);
+.Apropos .dropdown{
     width: 90%;
-    height: 150px;
-    margin-top: -10px;
-    padding-top: 20px;
-    border-radius: 0 0 5px 5px;
+    margin-top: 30px;
+    margin-left: 260px;
 }
-.detail-bandeau-rouge p {
+.Apropos .titre-dropdown {
+    width: 80%;
+}
+.Apropos .dropdown p {
+    height: auto;
+    padding: 10px 30px 10px 30px;
+    width: 80%;
+    font-size: 18px;
     color: var(--rouge);
-    width: 90%;
-    height: 68px;
-    margin-left: 20px;
-    margin-right: 20px;
-    line-height: 25px;
-    font-size: 20px;
-
-    
+    background-color: var(--grisclair);
 }
-

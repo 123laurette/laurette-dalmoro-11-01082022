@@ -1,7 +1,7 @@
 import React from "react"
 import arrowclose from "../../assets/arrow_close.png"
 import arrowopen from "../../assets/arrow_open.png"
-import "./DropdownCourt.css"
+import "./Dropdown.css"
 import { useState } from "react"
 
 
