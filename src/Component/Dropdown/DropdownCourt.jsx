@@ -10,26 +10,18 @@ function Dropdown({ title, text, extraClass }) {
 
     return dropdownOpened ? (
         <div className={extraClass ? "dropdown " + extraClass : "dropdown"}>
-        <div className="titre-dropdown">
-            <h3>{title}</h3>
-            <img
-            src={arrowclose}
-            alt="Cacher contenu"
-            onClick={() => setDropdown(false)}
-            />
-        </div>
-        {typeof text === "object" ? convertArray(text) : <p>{text}</p>}
+            <div className="titre-dropdown">
+                <h3>{title}</h3>
+                <img src={arrowclose} alt="Contenu invisible" onClick={() => setDropdown(false)}/>
+            </div>
+            {typeof text === "object" ? convertArray(text) : <p>{text}</p>}
         </div>
     ) : (
         <div className="dropdown">
-        <div className="titre-dropdown">
-            <h3>{title}</h3>
-            <img
-            src={arrowopen}
-            alt="Afficher contenu"
-            onClick={() => setDropdown(true)}
-            />
-        </div>
+            <div className="titre-dropdown">
+                <h3>{title}</h3>
+                <img src={arrowopen} alt="Contenu visible" onClick={() => setDropdown(true)}/>
+            </div>
         </div>
     )
 }
@@ -37,9 +29,9 @@ function Dropdown({ title, text, extraClass }) {
 function convertArray(arr) {
     return (
         <ul>
-        {arr.map((equipment) => (
-            <li>{equipment}</li>
-        ))}
+            {arr.map((equipment) => (
+                <li>{equipment}</li>
+            ))}
         </ul>
     )
 }

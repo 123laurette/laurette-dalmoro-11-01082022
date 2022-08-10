@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ff6060;
+    background-color: var(--rouge);
     height: 52px;
     width: 90%;
     border-radius: 10px;
@@ -11,7 +11,7 @@
 }
 .bandeau-rouge h4 {
     font-size: 24px;
-    color: white;
+    color: var(--blanc);
     margin-left: 20px;
 }
 .bandeau-rouge img {

@@ -5,12 +5,7 @@ import precedent from "../../assets/precedent.png"
 
 let index = 0
 
-/**
- *
- * @param {Object} props
- * @param {Array} props.pictures Tableau contenant les photos du logement
- * @returns Le carrousel des photos du logement
- */
+
 function Carroussel({ pictures }) {
     const [, setRefresh] = useState(0)
     return (
@@ -23,7 +18,6 @@ function Carroussel({ pictures }) {
         if (index >= pictures.length) index = 0
         setRefresh(index)
     }
-    
     function btnprecedent() {
         index--
         if (index < 0) index = pictures.length - 1
@@ -37,13 +31,9 @@ function Carroussel({ pictures }) {
                 
                 <img src={suivant} className="suivant" onClick={btnsuivant} alt=""/>
                 <p>{index + 1}/{pictures.length}</p>
-                
-                
             </div>
         )
     }
-    
-    
 }
 
 export default Carroussel

@@ -11,7 +11,7 @@
 }
 
 .detail-bandeau-rouge {
-    background-color : #f6f6f6;
+    background-color: var(--grisclair);
     width: 90%;
     height: 150px;
     margin-top: -10px;
@@ -19,7 +19,7 @@
     border-radius: 0 0 5px 5px;
 }
 .detail-bandeau-rouge p {
-    color: #ff6060;
+    color: var(--rouge);
     width: 90%;
     height: 68px;
     margin-left: 20px;

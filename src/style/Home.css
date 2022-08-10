@@ -31,7 +31,7 @@
     border-radius: 25px;
     position: absolute;
     z-index: 5;
-    background: #000000;
+    background: var(--noir);
     opacity: 0.3;
     mix-blend-mode: darken;
 }
@@ -43,7 +43,7 @@
     width: 90%;
     height: 829px;
     border-radius: 25px;
-    background-color: #f6f6f6;
+    background-color: var(--grisclair);
     margin-top: 40px;
     padding-left: 25px;
     padding-right: 25px;
@@ -54,5 +54,5 @@
 }
 .GalleryLogements::-webkit-scrollbar {
     display: none;
-  }
+}
 

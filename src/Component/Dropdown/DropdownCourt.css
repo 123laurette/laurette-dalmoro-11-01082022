@@ -1,8 +1,8 @@
 .titre-dropdown {
     width: 100%;
     height: 52px;
-    background-color: #ff6060;
-    color: white;
+    background-color: var(--rouge);
+    color: var(--blanc);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,7 @@
 }
 .titre-dropdown h3 {
     font-size: 18px;
-    color: white;
+    color: var(--blanc);
     margin-left: 10px;
 }
 .titre-dropdown img {

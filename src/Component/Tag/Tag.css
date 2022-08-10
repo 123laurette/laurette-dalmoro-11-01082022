@@ -1,14 +1,11 @@
-.tags {
-    display: flex;
-    width: 50%;
-}
+
 .tag  {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--blanc);
     font-size: 14px;
-    background-color: #ff6060;
+    background-color: var(--rouge);
     border-radius: 10px;
     margin-right: 10px;
     width: 150px;

@@ -4,10 +4,8 @@
     height: 340px;
     position: relative;
     margin-bottom: 39px;
-
 }
 .gallery img {
-
     object-fit: cover;
     width: 340px;
     height: 340px;
@@ -28,5 +26,5 @@
     margin-top: -15%;
     font-size: 16px;
     line-height: 20px;
-    color: white;
+    color: var(--blanc);
 }

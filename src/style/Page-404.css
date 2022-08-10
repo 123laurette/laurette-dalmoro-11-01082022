@@ -9,15 +9,15 @@
 }
 .message-erreur h5 {
     font-size: 288px;
-    color: #ff6060;
+    color: var(--rouge);
 }
 .message-erreur span {
     font-size: 36px;
-    color: #ff6060;
+    color: var(--rouge);
     margin-top: 50px;
 }
 .message-erreur p {
     font-size: 18px;
-    color: #ff6060;
+    color: var(--rouge);
     margin-top: 150px;
 }
