@@ -72,32 +72,24 @@
 }
 .une::after{
     content:"\f005\f005\f005\f005";
-    color: var(--gris);
-    font-weight: bold;
 }
 .deux::before{
     content:"\f005\f005";
 }
 .deux::after{
     content:"\f005\f005\f005";
-    color: var(--gris);
-    font-weight: bold;
 }
 .trois::before{
     content:"\f005\f005\f005";
 }
 .trois::after{
     content:"\f005\f005";
-    color: var(--gris);
-    font-weight: bold;
 }
 .quatre::before{
     content:"\f005\f005\f005\f005";
 }
 .quatre::after{
     content:"\f005";
-    color: var(--gris);
-    font-weight: bold;
 }
 .cinq::before{
     content:"\f005\f005\f005\f005\f005";
@@ -105,6 +97,13 @@
 .cinq::after{
     content:"";
 }
+
+.une::after,.deux::after, .trois::after, .quatre::after{
+    color: var(--gris);
+    font-weight: bold;
+}
+
+
 .descript-equip {
     display: flex;
     justify-content: space-between;
@@ -117,20 +116,17 @@
     flex-direction: column;
     width: 45%;
 }
-.description p {
-    height: 240px;
-    color: var(--rouge);
-    font-size: 18px;
-    padding: 10px 30px 10px 30px;
-    background-color: var(--grisclair);
-}
+
 .equipements ul {
-    height: 240px;
     list-style-type: none;
-    color: var(--rouge);
-    font-size: 18px;
-    padding: 10px 20px 10px 20px;
+}
+.description p, .equipements ul{
     background-color: var(--grisclair);
+    font-size: 18px;
+    color: var(--rouge);
+    height: 240px;
+    padding: 10px 30px 10px 30px;
+
 }
 
 
