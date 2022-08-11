@@ -7,9 +7,9 @@ import "./Footer.css"
 function Footer () {
     return (
         <footer>
-                <img src={logoFooter} alt="" />
-                <p> © 2020 Kasa. All rights reserved</p>
-            </footer>
+            <img src={logoFooter} alt="logo en noir" />
+            <p> © 2020 Kasa. All rights reserved</p>
+        </footer>
     )
 }
 

@@ -1,5 +1,6 @@
 import React from "react"
 import "../style/Page-404.css"
+import { Link } from "react-router-dom"
 
 
 function Page404() {
@@ -8,7 +9,7 @@ function Page404() {
             <div className="message-erreur">
                 <h5>404</h5>
                 <span>Oups! La page que vous demandez n'existe pas.</span>
-                <p>Retourner sur la page d'accueil</p>
+                <Link to="/" className="message">Retourner sur la page d'accueil</Link>
             </div>
         </div>
     )
