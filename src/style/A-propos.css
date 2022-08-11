@@ -4,15 +4,18 @@
     margin-top: 30px;
     margin-bottom: 20px;
     border-radius: 25px;
+    border: blue solid;
 }
 
 .Apropos .dropdown{
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 260px;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 290px;
+    border: yellow solid;
 }
 .Apropos .titre-dropdown {
-    width: 80%;
+    width: 100%;
+    border: black solid;
 }
 .Apropos .dropdown p {
     height: auto;
