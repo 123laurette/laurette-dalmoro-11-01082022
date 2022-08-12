@@ -29,3 +29,23 @@
     line-height: 20px;
     color: var(--blanc);
 }
+@media screen and (max-width:375px) {
+    .gallery,.gallery img,.filtreGallery{
+        width: 335px;
+        height: 200px;
+        border-radius: 10px;
+    } 
+    .filtreGallery {
+        margin-top: -60.5%;
+
+    }
+    .gallery{
+        margin-bottom: 20px;
+    }
+    .gallery h2 {
+        font-size: 14px;
+        margin-top: -15%;
+    }
+
+    
+}
