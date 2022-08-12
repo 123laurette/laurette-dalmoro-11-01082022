@@ -6,15 +6,15 @@ import { useState } from "react"
 
 
 function Dropdown({ title, text, extraClass }) {
-    const [dropdownOpened, setDropdown] = useState(false)
+    const [dropdownOuvert, setDropdown] = useState(false)
 
-    return dropdownOpened ? (
+    return dropdownOuvert ? (
         <div className={extraClass ? "dropdown " + extraClass : "dropdown"}>
             <div className="titre-dropdown">
                 <h3>{title}</h3>
                 <img src={arrowclose} alt="Contenu invisible" onClick={() => setDropdown(false)}/>
             </div>
-            {typeof text === "object" ? convertArray(text) : <p>{text}</p>}
+            {typeof text === "object" ? tabEquipement(text) : <p>{text}</p>}
         </div>
     ) : (
         <div className="dropdown">
@@ -26,10 +26,10 @@ function Dropdown({ title, text, extraClass }) {
     )
 }
 
-function convertArray(arr) {
+function tabEquipement(tab) {
     return (
         <ul>
-            {arr.map((equipment) => (
+            {tab.map((equipment) => (
                 <li>{equipment}</li>
             ))}
         </ul>

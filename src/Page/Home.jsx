@@ -3,7 +3,7 @@ import accueil from "../assets/banniere accueil.png"
 import "../style/Home.css"
 import Gallery from "../Component/Gallery/Gallery"
 import { Link } from "react-router-dom"
-import { getDataLogements } from "../dataJson"
+import { getDataLogements } from "../services"
 
 
 function Home() {

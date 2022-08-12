@@ -5,14 +5,9 @@ import precedent from "../../assets/precedent.png"
 
 let index = 0
 
-
 function Carroussel({ pictures }) {
     const [, setRefresh] = useState(0)
-    return (
-        <div className="photo" style={{backgroundImage: `url("${pictures[index]}")`,}}>
-        {pictures.length > 1 ? navigation() : ""}
-        </div>
-    )
+    
     function btnsuivant() {
         index++
         if (index >= pictures.length) index = 0
@@ -34,6 +29,11 @@ function Carroussel({ pictures }) {
             </div>
         )
     }
+    return (
+        <div className="photo" style={{backgroundImage: `url("${pictures[index]}")`,}}>
+        {pictures.length > 1 ? navigation() : ""}
+        </div>
+    )
 }
 
 export default Carroussel

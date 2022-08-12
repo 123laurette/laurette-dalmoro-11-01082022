@@ -21,3 +21,23 @@ a{
 .active {
     text-decoration-line: underline;
 }
+@media screen and (max-width:375px) {
+
+    header {
+        width: 90%;
+        height: 47px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    header img {
+        width: auto;
+        height: 100%;
+    }
+    a {
+        font-size: 12px;
+    }
+    nav {
+        width: 40%;
+        align-items: center;
+    }
+}

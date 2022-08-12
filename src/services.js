@@ -1,4 +1,4 @@
-import logements from "../src/data/logements.json" 
+import logements from "./data/logements.json" 
 
 
 function getDataLogements() {
@@ -25,4 +25,3 @@ export {
 }
 
 
-//QUESTION = il n'est pas inscrit dans le getDataLogement le détail des autres clés du json, comme cela ce fait que l'on y accède quand même ?

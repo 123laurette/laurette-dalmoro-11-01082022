@@ -4,7 +4,7 @@
     width: 90%;
     height: 415px;
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .titre-nom {
     display: flex;
@@ -104,11 +104,12 @@
 }
 
 
+
 .descript-equip {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin-top: 26px;
+    margin-top: 20px;
     margin-left: 100px;
 }
 .description, .equipements {

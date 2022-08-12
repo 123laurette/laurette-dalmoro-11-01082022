@@ -1,6 +1,6 @@
 import React from "react"
 import "../style/Fiche-logement.css"
-import { getIdLogements } from "../dataJson"
+import { getIdLogements } from "../services"
 import { useParams } from "react-router-dom"
 import Carroussel from "../Component/Carroussel/Carroussel"
 import Tag from "../Component/Tag/Tag"
@@ -23,7 +23,7 @@ function FicheLogement() {
             <div className="navig">
                 <Carroussel 
                 pictures={ficheLogement.pictures}/>
-            </div>
+                </div>
             <div className="titre-nom">
                 <div className="titre">
                     <h2>{ficheLogement.title}</h2>
