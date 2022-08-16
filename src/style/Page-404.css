@@ -21,3 +21,25 @@
 .message-erreur h5, .message-erreur span,.message {
     color: var(--rouge);
 }
+
+
+@media screen and (max-width:375px) {
+
+    .message-erreur {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        height: 430px;
+
+    }   
+    .message-erreur h5{
+        font-size: 96px;
+    }
+    .message-erreur span{
+        font-size: 18px;
+    }
+    .message{
+        font-size: 14px;
+        margin-top: 80px;
+    }
+}

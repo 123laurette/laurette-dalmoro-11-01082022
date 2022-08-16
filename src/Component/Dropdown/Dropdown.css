@@ -19,3 +19,15 @@
     height: 26px;
     margin-right: 10px;
 }
+@media screen and (max-width:375px) {
+    .titre-dropdown{
+        height: 30px;
+    }
+    .titre-dropdown h3 {
+    font-size: 13px;
+    }
+    .titre-dropdown img {
+    width: 15px;
+    height: 15px;
+    }
+}

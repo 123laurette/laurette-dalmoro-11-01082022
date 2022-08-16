@@ -19,7 +19,7 @@ function FicheLogement() {
     return FicheLogement === undefined ? (
     <Page404 />
     ) : (
-        <div>
+        <div className="ficheLogement">
             <div className="navig">
                 <Carroussel 
                 pictures={ficheLogement.pictures}/>
