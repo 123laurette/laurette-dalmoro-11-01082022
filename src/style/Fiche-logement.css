@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 10%;
+    width: 15%;
 }
 .nom h3 {
     text-align: right;
@@ -103,8 +103,6 @@
     font-weight: bold;
 }
 
-
-
 .descript-equip {
     display: flex;
     justify-content: space-between;
@@ -128,6 +126,8 @@
     height: 240px;
     padding: 10px 30px 10px 30px;
 }
+
+
 
 @media screen and (max-width:375px) {
     .ficheLogement {
@@ -205,10 +205,7 @@
     .description p, .equipements ul{
         height: auto;
         font-size: 12px;
-
     }
-
-    
 }
 
 

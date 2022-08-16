@@ -19,6 +19,9 @@
     height: 26px;
     margin-right: 10px;
 }
+
+
+
 @media screen and (max-width:375px) {
     .titre-dropdown{
         height: 30px;

@@ -6,15 +6,15 @@
     border-radius: 25px;
 }
 
-.Apropos .dropdown{
+.apropos .dropdown{
     width: 70%;
     margin-top: 15px;
-    margin-left: 290px;
+    margin-left: 15%;
 }
-.Apropos .titre-dropdown {
+.apropos .titre-dropdown {
     width: 100%;
 }
-.Apropos .dropdown p {
+.apropos .dropdown p {
     height: auto;
     padding: 10px 30px 10px 30px;
     width: 100%;
@@ -23,26 +23,29 @@
     background-color: var(--grisclair);
 }
 
+
+
+
 @media screen and (max-width:375px) {
-.Apropos{
-    width: 90%;
-}
-.baniere-a-propos {
-    width: 336px;
-    height: 223px;
-    object-fit: cover;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 0px;
-}
-.Apropos .dropdown{
-    width: 100%;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-.Apropos .dropdown p {
-    font-size: 12px;
-}
+    .apropos{
+        width: 90%;
+    }
+    .baniere-a-propos {
+        width: 336px;
+        height: 223px;
+        object-fit: cover;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    .apropos .dropdown{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .apropos .dropdown p {
+        font-size: 12px;
+    }
 }
 
 

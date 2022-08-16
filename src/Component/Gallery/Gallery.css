@@ -29,6 +29,9 @@
     line-height: 20px;
     color: var(--blanc);
 }
+
+
+
 @media screen and (max-width:375px) {
     .gallery,.gallery img,.filtreGallery{
         width: 335px;
