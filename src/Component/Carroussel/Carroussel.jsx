@@ -6,17 +6,18 @@ import precedent from "../../assets/precedent.png"
 let index = 0
 
 function Carroussel({ pictures }) {
-    const [, setRefresh] = useState(0)
+    const [, setNewImg] = useState(0)   //useState, représente la valeur de base, 0
+                                        //setNewImg, est la fonction que l'on appelle et qui modifie cette valeur
     
     function btnsuivant() {
-        index++
+        index++                     
         if (index >= pictures.length) index = 0
-        setRefresh(index)
+        setNewImg(index)
     }
     function btnprecedent() {
         index--
         if (index < 0) index = pictures.length - 1
-        setRefresh(index)
+        setNewImg(index)
     }
 
     function navigation() {

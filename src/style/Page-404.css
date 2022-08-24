@@ -24,12 +24,12 @@
 
 
 
-@media all and (max-width:1200px) and (min-width:376px) {
+@media (max-width:1370px) and (min-width:376px) {
     .message-erreur {
         margin-left: 0;
         text-align: center;
         width: 100%;
-        height: 545px;
+        height: 348px;
     }   
     .message-erreur h5 {
         font-size: 150px;
@@ -39,7 +39,7 @@
     }
     .message{
         font-size: 14px;
-        margin-top: 80px;
+        margin-top: 70px;
     }
 }
 

@@ -6,7 +6,7 @@ import Dropdown from "../Component/Dropdown/Dropdown"
 
 function Apropos() {
     return (
-        <div className="Apropos">
+        <div className="apropos">
             <img className="baniere-a-propos"src= {Montagnes} alt="Chaine de montagnes"/>
 
             <Dropdown classe="apropos" title= "Fiabilité" text="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."/>

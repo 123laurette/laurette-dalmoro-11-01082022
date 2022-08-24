@@ -8,14 +8,14 @@
 }
 
 .precedent, .suivant {
-    margin-top: 9%;    
+    margin-top: 10%;    
     position: absolute;
     width: 46px;
     height: 79 px;
     cursor: pointer;
 }
 .precedent {
-    margin-left: 25px;
+    margin-left: 1.5%;
 }
 .navigation .suivant {
     margin-left: 86%;
@@ -24,7 +24,22 @@
     font-size: 18px;
     color: var(--blanc);
     text-align: center;
-    padding-top: 22%;
+    padding-top: 20%;
+}
+
+@media (max-width:1370px) and (min-width:376px) {
+    .precedent, .suivant {
+        margin-top: 13%;    
+    }
+    .navigation .suivant {
+        margin-left: 85%;
+    }
+    .navigation p {
+        font-size: 18px;
+        color: var(--blanc);
+        text-align: center;
+        padding-top: 32%;
+    }
 }
 
 @media screen and (max-width:375px) {

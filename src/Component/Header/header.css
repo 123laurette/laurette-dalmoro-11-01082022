@@ -10,7 +10,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 250px;
+    width: 20%;
     height: 34px;
 }
 a{
@@ -21,11 +21,10 @@ a{
 .active {
     text-decoration-line: underline;
 }
-@media screen and (max-width:375px) {
 
+
+@media screen and (max-width:375px) {
     header {
-        display: flex;
-        justify-content: space-between;
         width: 88%;
         height: 47px;
         margin-top: 20px;
